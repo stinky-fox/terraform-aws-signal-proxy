@@ -1,0 +1,7 @@
+.DS_Store
+varfile
+varfiles
+*.tfstate
+.terraform/
+.*.hcl
+*.backup
