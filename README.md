@@ -17,6 +17,9 @@ instanceName="<DEFINE THE SUBDOMAIN NAME FOR THIS SIGNAL PROXY. BY DEFAULT A TRI
 ```
 export FQDN="<FULL FQDN OF THIS SIGNAL PROXY>"
 ```
+### Add RSA SSH key
+
+By default, terraform will look in the project's folder for key-file with a name **id_rsa.pub**. Can point to any other if needed via the variable **publicKeyPath**
 
 ## Run 
 ```
